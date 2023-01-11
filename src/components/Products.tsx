@@ -28,8 +28,7 @@ const Products = (props:prodProps) => {
         slidesToScroll: 1
       };
     
-    console.log(props.prod)
-  return (
+    return (
     <>
     <h4 className='ps-2 pt-2 text-dark-emphasis'>FRESH DEALS</h4>
     <hr className=' ms-2 me-2'/>
@@ -51,10 +50,10 @@ const Products = (props:prodProps) => {
                     )
                 })}
             </Slider>
+        </div>
     </div>
-  </div>
-  </>
-  )
+    </>
+    )
 }
 
 export default Products

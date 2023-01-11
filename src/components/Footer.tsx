@@ -1,9 +1,10 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
   return (
     <>
-    <div className='col-12 bg-secondary-subtle '>
+    <div className='col-12 bg-body-secondary '>
         <div className='col-12 p-2 d-flex flex-row justify-content-between border-bottom border-2 border-danger'>
             <h4 className='ps-4 pb-2 pt-2 text-dark-emphasis'>Get new recipes & blogs in your inbox every week</h4>
             <div className='col-4 border border-1 me-4 mb-2 mt-2 d-flex flex-row align-items-center justify-content-between'>
@@ -17,7 +18,9 @@ const Footer = () => {
             </div>
             <div className='col-2 d-flex flex-column p-2 ps-4 border-end border-dark-subtle'>
                 <span className='fw-bolder fs-6'>Information</span>
+                <Link to='/about' className='text-decoration-none text-dark'>
                 <span className='fw-lighter text-primary-subtle'>About Us</span>
+                </Link>
                 <span className='fw-lighter text-primary-subtle'>Privacy Policy</span>
                 <span className='fw-lighter text-primary-subtle'>Terms</span>
                 <span className='fw-lighter text-primary-subtle'>Store Locater</span>
