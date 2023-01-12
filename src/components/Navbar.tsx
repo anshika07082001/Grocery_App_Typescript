@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <div className=' col-12 d-flex flex-row border border-bottom align-items-center justify-content-around p-1 pt-3 pb-3'>
         <div className='d-flex flex-row col-8 align-items-center justify-content-around'>
-            <Link to='/'>
+            <Link to='/body'>
             <div className='col-9 d-flex flex-column'>
                 <img src='https://martjackstorage.blob.core.windows.net/in-resources/075ba640-9325-4e0e-8157-cdf49e2a8909/Images/userimages/logo.jpg' alt=''/>
                 <img className='mt-1' src='https://martjackstorage.blob.core.windows.net/in-resources/075ba640-9325-4e0e-8157-cdf49e2a8909/Images/userimages/shop_by_category_nov26.jpg' alt=''/>
@@ -28,10 +28,6 @@ const Navbar = () => {
                 <div className='d-flex flex-row align-items-center'>
                     <i className="bi bi-chevron-down p-1"></i>
                     <i className="bi bi-person fs-3 text-success"></i>
-                    <div className='d-flex flex-column ps-1 fw-light'>
-                        <span>Hello Sign in to</span>
-                        <span>Your Account</span>
-                    </div>
                 </div>
             </Link>
             <Link to='/cart' className='text-decoration-none text-dark'>
